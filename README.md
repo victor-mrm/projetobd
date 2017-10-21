@@ -12,7 +12,7 @@ Perguntas:
 3- Mostrar historicos das mensagens enviadas na 05/08/2017.
 
 
-3- Mostrar historicos das mensagens enviadas na 05/08/2017.
+4- Mostrar a quantidade de mensagens enviadas no total.
 
 
 5- Verifique os amigos em comum de cada usuario e mostrar o mesmo.
