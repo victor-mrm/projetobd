@@ -14,4 +14,4 @@ Perguntas:
 4- Mostrar a quantidade de mensagens enviadas no total.
 
 
-5- Verifique os amigos em comum de cada usuario e mostrar o mesmo.
+5- Mostre o nome de todos os usuário com email "webnode".
