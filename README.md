@@ -15,3 +15,35 @@ Perguntas:
 
 
 5- Mostre o nome de todos os usuário com email "webnode".
+
+
+6-Mostre o nome de todos os usuários que são amigos do usuário de id 1.
+
+
+```sql
+select usuario.nome, amizade.usuario_id1
+
+from amizade
+
+inner join usuario
+
+on usuario.id = amizade.usuario_id1
+
+where amizade.usuario_id = 1;
+```
+
+
+7-Mostre o nome de todos os usuários que  NÃO são amigos do usuário de id 1.
+
+
+```sql
+select id,nome,status from usuario where id not in(select usuario.id
+from amizade
+
+inner join usuario
+
+on usuario.id = amizade.usuario_id1
+
+where amizade.usuario_id = 1 or amizade.usuario_id1 = 1 ) and id <> 1;
+```
+
